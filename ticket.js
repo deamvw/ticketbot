@@ -9,7 +9,7 @@ function clean(text) {
 }
 
 var prefix = "."; //prefix
-var token = "NTMzMzA1MzIwNzg1NzA3MDIw.XP7Egg.X6Su-ytbByFNhZ84UiKxIrr2ZKI"; //token
+var token = "NTMzMzA1MzIwNzg1NzA3MDIw.XW_y9Q.6j6fn9x7LPichDJYnS-bZTIFtsA"; //token
 
 client.on("ready", () => {
 console.log(`Ticket Started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
