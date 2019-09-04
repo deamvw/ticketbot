@@ -1,0 +1,26 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "",
+  "env": {
+    "prefix": {
+      "required": true
+    },
+    "token": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "ticketbot",
+  "scripts": {
+    "postdeploy": "ticket.js"
+  },
+  "stack": "heroku-18"
+}
